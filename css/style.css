@@ -61,6 +61,16 @@ button, #login {
 }
 /*  /SECTION IL TUO POSTO PER PARLARE  */
 
+/*  SECTION UN LUOGO A INVITO  */
+.second-p {
+    padding-top: 10px;
+}
+
+.col-40.height {
+    padding: 20px 140px;
+}
+/*  SECTION UN LUOGO A INVITO  */
+
 /*  CONTAINERS  */
 header {
     background-color: rgb(37, 94, 233);
@@ -101,7 +111,7 @@ footer {
 }
 
 .lightgrey {
-    background-color: rgb(179, 179, 219);
+    background-color: rgb(234, 234, 245);
 }
 
 .green {
