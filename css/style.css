@@ -86,6 +86,12 @@ button, #login {
     background-color: rgb(142, 161, 225);
     color: white;
 }
+
+.bottom-button {
+    width: 100%;
+    background-color: rgb(146, 164, 226);
+    color: white;
+}
 /*  /SECTION IL TUO POSTO PER PARLARE  */
 
 /*  SECTION UN LUOGO A INVITO  */
@@ -136,24 +142,20 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+.bottom-container {
+    width: 7%;
+    margin-right: 20px;
+}
 /*  /CONTAINERS  */
 
 /*  UTILITY COLORS  */
-.orange {
-    background-color: orange;
-    border: 1px dashed black;
-}
-
 .lightgrey {
     background-color: rgb(234, 234, 245);
 }
 
 .lightblue {
     background-color: rgb(22, 123, 238);
-}
-
-.coral {
-    background-color: coral;
 }
 
 .black {
@@ -163,10 +165,6 @@ footer {
 .gold {
     background-color: gold;
     border: 1px dashed black;
-}
-
-.lime {
-    background-color: lime;
 }
 /*  /UTILITY COLORS  */
 
@@ -212,8 +210,8 @@ footer {
 
 .col-100-tiny {
     width: 100%;
-    padding: 10px 0;
-    margin-top: 20px;
+    padding: 20px 10px 50px 10px;
+    align-items: center;
 }
 
 .col-100 {
