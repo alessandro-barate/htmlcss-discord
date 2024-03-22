@@ -12,8 +12,17 @@ ul {
     list-style: none;
 }
 
+.ul-bottom {
+    width: 50%;
+    margin: 0 auto;
+}
+
 li {
     margin-left: 10px;
+}
+
+.li-topic {
+    color: rgb(116, 140, 222);
 }
 
 a {
@@ -71,6 +80,11 @@ button, #login {
     background-color: black;
     color: white;
     width: 30%;
+}
+
+.blue-button {
+    background-color: rgb(142, 161, 225);
+    color: white;
 }
 /*  /SECTION IL TUO POSTO PER PARLARE  */
 
@@ -149,11 +163,6 @@ footer {
 .gold {
     background-color: gold;
     border: 1px dashed black;
-}
-
-.turquoise {
-    background-color: turquoise;
-    border: 1px dashed white;
 }
 
 .lime {
