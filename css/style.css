@@ -7,9 +7,33 @@
 }
 /*  /GLOBAL PAGE SETTING  */
 
+/*  HEADER  */
+ul {
+    list-style: none;
+}
+
+li {
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    display: inline-block;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 8px 10px;
+
+}
+/*  /HEADER  */
+
 /*  CONTAINERS  */
 header {
-    background-color: lightskyblue;
+    background-color: rgb(49, 97, 224);
     padding: 10px 0px;
 }
 
@@ -139,22 +163,21 @@ footer {
 }
 /*  /UTILITY COLUMNS CLASSES  */
 
-.small-dx {
-    text-align: end;
-}
-
+/*  DISPLAY PROPERTIES  */
 .d-flex {
     display: flex;
+}
+
+.justify-center {
     justify-content: center;
 }
 
-.d-flex-footer {
-    display: flex;
+.justify-between {
     justify-content: space-between;
 }
 
-.link {
-    width: 6%;
+.justify-end {
+    justify-content: end;
 }
 
 .footer-button {
@@ -162,3 +185,4 @@ footer {
     text-align: center;
     padding: 3px;
 }
+/*  /DISPLAY PROPERTIES  */
