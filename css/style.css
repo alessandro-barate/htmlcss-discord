@@ -20,20 +20,50 @@ a {
     text-decoration: none;
     color: white;
 }
+/*  /HEADER  */
 
-button {
+/*  SECTION IL TUO POSTO PER PARLARE  */
+.main-image {
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, .first-p  {
+    color: white;
+}
+
+p {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.buttons {
+    width: 100%;
+    margin: 10px auto;
+}
+
+button, #login {
     display: inline-block;
     background-color: white;
     border-radius: 20px;
     border: none;
-    padding: 8px 10px;
-
+    margin: 10px;
+    padding: 5px;
+    width: 18%;
 }
-/*  /HEADER  */
+
+.black-button {
+    background-color: black;
+    color: white;
+    width: 30%;
+}
+/*  /SECTION IL TUO POSTO PER PARLARE  */
 
 /*  CONTAINERS  */
 header {
-    background-color: rgb(49, 97, 224);
+    background-color: rgb(37, 94, 233);
     padding: 10px 0px;
 }
 
@@ -68,10 +98,6 @@ footer {
 .orange {
     background-color: orange;
     border: 1px dashed black;
-}
-
-.blue {
-    background-color: rgb(0, 0, 182);
 }
 
 .lightgrey {
@@ -139,8 +165,10 @@ footer {
 
 .col-55 {
     width: 55%;
-    background-color: rgb(224, 131, 146);
-    padding: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 140px;
+    flex-wrap: wrap;
 }
 
 .col-60 {
@@ -184,5 +212,9 @@ footer {
     width: 60px;
     text-align: center;
     padding: 3px;
+}
+
+.hg-50 {
+    height: 50%;
 }
 /*  /DISPLAY PROPERTIES  */
