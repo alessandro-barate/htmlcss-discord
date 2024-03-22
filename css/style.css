@@ -5,6 +5,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 /*  /GLOBAL PAGE SETTING  */
 
 /*  HEADER  */
@@ -38,23 +42,40 @@ a {
     background-size: cover;
 }
 
+h1 {
+    font-size: 50px;
+}
+
 h1, .first-p  {
     color: white;
 }
 
-h2, h3 {
+h2, .p-small {
+    width: 40%;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.p-small {
+    margin-top: 10px;
+}
+
+.p-big {
+    width: 80%;
+}
+
+.first-p {
+    padding-left: 40px;
+    padding-right: 40px;
     text-align: center;
 }
 
 h3 {
     width: 50%;
     margin: 0 auto;
-}
-
-p {
     text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 .buttons {
@@ -131,6 +152,7 @@ footer {
 }
 
 .tech {
+    width: 45%;
     margin: 0 auto;
     padding-bottom: 5px;
 }
@@ -161,10 +183,6 @@ footer {
 /*  UTILITY COLORS  */
 .lightgrey {
     background-color: rgb(234, 234, 245);
-}
-
-.lightblue {
-    background-color: rgb(22, 123, 238);
 }
 
 .black {
