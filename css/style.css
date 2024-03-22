@@ -75,7 +75,7 @@ h2 {
 }
 
 h3 {
-    width: 50%;
+    padding-top: 23px;
     margin: 0 auto;
     text-align: center;
 }
@@ -89,6 +89,7 @@ h3 {
     background-image: url(../img/stars.svg);
     background-size: contain;
     background-repeat: no-repeat;
+    width: 25%;
 }
 
 button, #login {
@@ -274,6 +275,10 @@ footer {
 
 .justify-end {
     justify-content: end;
+}
+
+.direction-c {
+    flex-direction: column;
 }
 
 .footer-button {
