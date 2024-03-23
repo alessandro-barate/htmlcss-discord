@@ -32,14 +32,7 @@ a {
 }
 /*  /HEADER  */
 
-/*  SECTION IL TUO POSTO PER PARLARE  */
-.main-image {
-    background-image: url(../img/jumbo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 20px;
-}
-
+/*  TEXTS STYLING  */
 h1 {
     font-size: 50px;
 }
@@ -60,6 +53,12 @@ h2 {
     width: 50%;
 }
 
+h3 {
+    padding-top: 23px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .p-small {
     margin-top: 10px;
 }
@@ -75,23 +74,12 @@ h2 {
     padding-right: 40px;
     text-align: center;
 }
+/*  /TEXTS STYLING  */
 
-h3 {
-    padding-top: 23px;
-    margin: 0 auto;
-    text-align: center;
-}
-
+/*  BUTTONS  */
 .buttons {
     width: 100%;
     margin: 10px auto;
-}
-
-.stars {
-    background-image: url(../img/stars.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 25%;
 }
 
 button, #login {
@@ -103,8 +91,6 @@ button, #login {
     padding: 8px;
     width: 18%;
 }
-
-
 
 .black-button {
     background-color: black;
@@ -126,20 +112,12 @@ button, #login {
     background-color: rgb(146, 164, 226);
     color: white;
 }
-/*  /SECTION IL TUO POSTO PER PARLARE  */
+/*  /BUTTONS  */
 
-/*  SECTION UN LUOGO A INVITO  */
-.col-40.height {
-    padding: 20px 140px;
-}
-
+/*  SMALL IMAGE AND LOGOS  */
 .image {
     width: 70%;
     margin-left: 100px;
-}
-
-.flag-container {
-    margin-top: 20px;
 }
 
 .flag {
@@ -164,7 +142,7 @@ button, #login {
 .yt-logo {
     padding-left: 5px;
 }
-/*  SECTION UN LUOGO A INVITO  */
+/*  /SMALL IMAGE AND LOGOS  */
 
 /*  CONTAINERS  */
 header {
@@ -189,6 +167,7 @@ footer {
 
 .flag-container {
     line-height: 20px;
+    margin-top: 20px;
 }
 
 .tech {
@@ -204,11 +183,6 @@ footer {
     background-size: contain;
 }
 
-.padding {
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-
 .row {
     display: flex;
     justify-content: center;
@@ -218,13 +192,6 @@ footer {
 .bottom-container {
     width: 7%;
     margin-right: 20px;
-}
-
-.wave {
-    background-image: url(../img/wave.svg);
-    background-size: cover;
-    background-color: transparent ;
-    width: 100%;
 }
 /*  /CONTAINERS  */
 
@@ -243,7 +210,6 @@ footer {
 /*  /UTILITY COLORS  */
 
 /*  UTILITY COLUMNS CLASSES  */
-
 .col-18 {
     width: calc(100% / 6);
 }
@@ -296,7 +262,7 @@ footer {
 }
 /*  /UTILITY COLUMNS CLASSES  */
 
-/*  DISPLAY PROPERTIES  */
+/*  SPACING PROPERTIES  */
 .d-flex {
     display: flex;
 }
@@ -327,4 +293,29 @@ footer {
     text-align: center;
     align-items: center;
 }
-/*  /DISPLAY PROPERTIES  */
+
+.padding {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.col-40.height {
+    padding: 20px 140px;
+}
+/*  /SPACING PROPERTIES  */
+
+/*  IMAGES AND BACKGROUNDS  */
+.main-image {
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.stars {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25%;
+}
+/*  /IMAGES AND BACKGROUNDS  */
