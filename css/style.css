@@ -14,6 +14,7 @@ body {
 /*  HEADER  */
 ul {
     list-style: none;
+    line-height: 1.5em;
 }
 
 .ul-bottom {
@@ -23,10 +24,6 @@ ul {
 
 li {
     margin-left: 10px;
-}
-
-.li-topic {
-    color: rgb(116, 140, 222);
 }
 
 a {
@@ -40,6 +37,7 @@ a {
     background-image: url(../img/jumbo.png);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 20px;
 }
 
 h1 {
@@ -56,6 +54,10 @@ h2, .p-small {
 
 h2 {
     font-size: 30px;
+}
+
+.h2-bottom {
+    width: 50%;
 }
 
 .p-small {
@@ -98,9 +100,11 @@ button, #login {
     border-radius: 20px;
     border: none;
     margin: 10px;
-    padding: 5px;
+    padding: 8px;
     width: 18%;
 }
+
+
 
 .black-button {
     background-color: black;
@@ -134,7 +138,20 @@ button, #login {
     margin-left: 100px;
 }
 
+.flag-container {
+    margin-top: 20px;
+}
 
+.flag {
+    width: 6%;
+    vertical-align: middle;
+}
+
+.ita {
+    display: inline-block;
+    color: white;
+    padding-bottom: 2px;
+}
 /*  SECTION UN LUOGO A INVITO  */
 
 /*  CONTAINERS  */
@@ -156,6 +173,10 @@ footer {
 .container {
     max-width: 1300px;
     margin: 0px auto;
+}
+
+.flag-container {
+    line-height: 20px;
 }
 
 .tech {
@@ -197,17 +218,12 @@ footer {
     background-color: black;
 }
 
-.gold {
-    background-color: gold;
-    border: 1px dashed black;
+.blueviolet {
+    color: rgb(116, 140, 222);
 }
 /*  /UTILITY COLORS  */
 
 /*  UTILITY COLUMNS CLASSES  */
-
-.height {
-    height: 250px;
-}
 
 .col-18 {
     width: calc(100% / 6);
