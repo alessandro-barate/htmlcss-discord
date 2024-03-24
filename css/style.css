@@ -42,7 +42,7 @@ h1, .first-p  {
 }
 
 h2, .p-small {
-    width: 40%;
+    width: 50%;
 }
 
 h2 {
@@ -197,7 +197,7 @@ footer {
 
 /*  UTILITY COLORS  */
 .lightgrey {
-    background-color: rgb(234, 234, 245);
+    background-color: rgb(235, 235, 235);
 }
 
 .black {
@@ -295,8 +295,8 @@ footer {
 }
 
 .padding {
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-top: 60px;
 }
 
 .col-40.height {
@@ -317,5 +317,18 @@ footer {
     background-size: contain;
     background-repeat: no-repeat;
     width: 25%;
+}
+
+.wave {
+    width: 100%;
+    margin-bottom: -4px;
+    filter: invert(92%);
+    padding-top: 10px;
+}
+
+.reverse {
+    transform: scaleX(-1) scaleY(-1);
+    margin-top: -4px;
+    margin-bottom: 10px;
 }
 /*  /IMAGES AND BACKGROUNDS  */
