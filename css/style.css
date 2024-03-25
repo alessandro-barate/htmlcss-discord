@@ -82,7 +82,7 @@ h3 {
     margin: 10px auto;
 }
 
-button, #login {
+button, #login-button {
     display: inline-block;
     background-color: white;
     border-radius: 20px;
